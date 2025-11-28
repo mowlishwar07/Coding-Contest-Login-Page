@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodeBattle - Register</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+
+<div class="center-form-box">
+    <h1>CodeBattle – Entry Form</h1>
+
+    <form id="battleForm">
+
+        <p id="successMsg" class="success"></p>
+
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="lang">Programming Language</label>
+        <select id="lang">
+            <option value="">-- Select Language --</option>
+            <option value="C">C</option>
+            <option value="C++">C++</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+            <option value="JavaScript">JavaScript</option>
+        </select>
+
+        <label for="exp">Experience (years)</label>
+        <input type="number" id="exp" placeholder="Eg: 1, 2, 3">
+
+        <p class="error" id="errorMsg"></p>
+
+        <button type="submit">Submit Entry</button>
+
+    </form>
+</div>
+
+</body>
+</html>
