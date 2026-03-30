@@ -19,7 +19,6 @@ The project focuses on **frontend design, user experience, and basic authenticat
 ## 🚀 Features
 
 * 🔑 Login form with username/email and password
-* 👁️ Password input masking
 * ✅ Basic input validation
 * 🎨 Attractive and responsive UI
 * ⚡ Lightweight and fast loading
@@ -39,7 +38,8 @@ The project focuses on **frontend design, user experience, and basic authenticat
 Coding-Contest-Login-Page/
 │── index.html
 │── style.css
-│── assets/ (if any images/icons used)
+│── register.html
+│── index.js
 ```
 
 ---
