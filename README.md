@@ -18,7 +18,7 @@ The project focuses on **frontend design, user experience, and basic authenticat
 
 ## 🚀 Features
 
-* 🔑 Login form with username/email and password
+* 🔑 Login form with email
 * ✅ Basic input validation
 * 🎨 Attractive and responsive UI
 * ⚡ Lightweight and fast loading
